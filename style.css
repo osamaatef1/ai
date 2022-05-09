@@ -1,0 +1,55 @@
+.container{
+    margin: 50px 200px;
+}
+
+.container > div{
+    float: left;
+
+}
+
+
+
+.box{
+    width: 300px;
+
+    border: 1px solid #000;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
+.container > div{
+    height: 450px;
+}
+
+.con-1 div{
+    height: 100%;
+}
+
+.con-2 div{
+    height: 50%;
+    display: block;
+}
+.con-3 div{
+    height: 33.3333%;
+    display: block;
+}
+
+.color div{
+    width: 40px;
+    height: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.color .red{
+    background-color: red;
+   
+}
+.color .blue{
+    background-color: blue;
+    
+}
+.color .green{
+    background-color: green;
+  
+}
